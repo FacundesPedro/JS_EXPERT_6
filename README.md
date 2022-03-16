@@ -7,7 +7,7 @@ Marque esse projeto com uma estrela 🌟
 Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-discord) para tirar suas dúvidas e conhecer pessoas: 
 ## Preview
 
-<img src="./prints/demo.png" />
+<img src="./imgs/demo.png" />
 
 ## Checklist Features
 
