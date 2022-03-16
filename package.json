@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/FacundesPedro/JS_EXPERT_6#readme",
   "devDependencies": {
+    "jest": "^27.5.1",
     "nodemon": "^2.0.15"
   },
   "dependencies": {

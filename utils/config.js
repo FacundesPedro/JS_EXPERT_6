@@ -20,11 +20,18 @@ export default {
         songsDir:join(audioDir,'songs'),
         fx: join(audioDir,'fx')
     },
-    pagesURL:{
+    pagesHTML:{
         home:'home/index.html',
         controller:'controller/index.html'
     },
     location:{
         home:'/home'
+    },
+    constants:{
+        CONTENT_TYPE:{
+            '.html':'text/html',
+            '.css':'text/css',
+            '.js':'text/javascript',
+        }
     }
 }
