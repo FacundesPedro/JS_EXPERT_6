@@ -7,14 +7,14 @@ import {
 } from 'url'
 
 const dir = dirname(fileURLToPath(import.meta.url))
-const pwd = join(dir,'../')
-const audioDir = join(pwd,'../','audio')
-const publicDir = join (pwd,'../','public')
+const root = join(dir,'../')
+const audioDir = join(root,'audio')
+const publicDir = join (root,'public')
 
 export default {
     port:process.env.PORT || 8080,
     _dir:{
-        pwd,
+        root,
         publicDir,
         audioDir,
         songsDir:join(audioDir,'songs'),
