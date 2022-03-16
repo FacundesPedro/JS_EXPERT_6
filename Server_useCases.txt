@@ -1,0 +1,7 @@
+-Server:
+    --Service: Todas as regra de Negócio/processamento do app;
+    --Controller: Intermédio da camada de negócio e a camada de apresentação (View);
+    --Routes: Public; Camada de apresentação;
+    --Server: Modelo do servidor;
+    --Index: Instância o servidor com o Modelo;
+    --Configs: Definições estáticas do servidor;
